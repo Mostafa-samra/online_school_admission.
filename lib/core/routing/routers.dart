@@ -17,4 +17,5 @@ class Routers {
       '/ApplicationSubmitPageTowView';
   static const String paymentMethod = '/PaymentMethodView';
   static const String homePage = '/HomePageView';
+  static const String page17AdmissionPage = '/Page17AdmissionPageView';
 }

@@ -8,10 +8,13 @@ class ShadowTextForm extends StatelessWidget {
     super.key,
     this.text,
     this.text1,
-    this.maxLines = 1, this.prefixText, this.suffixIcon,
+    this.maxLines = 1,
+    this.prefixText,
+    this.suffixIcon, this.hintText,
   });
-  final String ?text;
+  final String? text;
   final String? text1;
+  final String? hintText;
   final int? maxLines;
   final String? prefixText;
   final Widget? suffixIcon;
@@ -69,10 +72,12 @@ class ShadowTextForm extends StatelessWidget {
               clipBehavior: Clip.antiAliasWithSaveLayer,
               expands: false,
               maxLines: maxLines,
-              decoration:  InputDecoration(
-                  prefixText: prefixText,suffixIcon:suffixIcon ,
+              decoration: InputDecoration(
+                  hintText: hintText,
+                  prefixText: prefixText,
+                  suffixIcon: suffixIcon,
                   isDense: false,
-                  contentPadding:const EdgeInsets.all(12.0),
+                  contentPadding: const EdgeInsets.all(12.0),
                   border: InputBorder.none),
             ),
           ),
