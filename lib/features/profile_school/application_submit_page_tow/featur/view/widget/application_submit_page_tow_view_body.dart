@@ -16,9 +16,9 @@ class ApplicationSubmitPageTowViewBody extends StatelessWidget {
       
          const ApplicationTitle()
       ,Image.asset("assets/images/image 19.png"),
-      SizedBox(height: 50,),
+      const SizedBox(height: 50,),
          const ApplicationBotton(),
-       SizedBox(height: 29,),
+       const SizedBox(height: 29,),
       ],),
     );
   }

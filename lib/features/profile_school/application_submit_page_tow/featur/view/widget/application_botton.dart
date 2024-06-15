@@ -24,7 +24,7 @@ class ApplicationBotton extends StatelessWidget {
           onPressed: () =>
                context.pushNamed(Routers.paymentMethod),
         ),
-        SizedBox(height: 29,),
+        const SizedBox(height: 29,),
          CustomElevatedButton(
           text: "Rejected",
           style: ConstTextStyle.k20Regular,

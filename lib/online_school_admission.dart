@@ -19,8 +19,8 @@ class OnlineSchoolAdmission extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           initialRoute: 
           
-     //   Routers.homePage,
-         Routers.onbording,
+        Routers.homePage,
+        // Routers.onbording,
 
          
           //TODO: Change direction

@@ -17,11 +17,11 @@ class ApplicationListItem extends StatelessWidget {
         child: Row(
           children: [
             Image.asset(applicationModel.image),
-            SizedBox(width: 34,),
+            const SizedBox(width: 34,),
             Text(
               applicationModel.text,
               style: ConstTextStyle.k24Regular,
-            ),Spacer(),
+            ),const Spacer(),
             Icon(
               applicationModel.iconData,
               color: ConstColor.kCobaltBlue,

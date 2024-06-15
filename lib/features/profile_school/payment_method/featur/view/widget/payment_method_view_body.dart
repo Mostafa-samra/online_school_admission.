@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import '../../../../../../core/widgets/custom_back_icon_button.dart';
 import 'payment_method_add_new.dart';
 import 'payment_method_sub_title_image.dart';
@@ -13,22 +12,22 @@ class PaymentMethodViewBody extends StatelessWidget {
     return Column(
       children: [
         const CustomBackIconButton(),
-         SizedBox(height: 13,),
+         const SizedBox(height: 13,),
         const PaymentMethodTitle(),
-         SizedBox(height: 50,),
+         const SizedBox(height: 50,),
         const PaymentMethodSubTitleImage(),
-        SizedBox(height: 7,),
-        PaymentMethodAddNew(),
-        SizedBox(height: 50,),
-        Divider(thickness: 5,),
-        SizedBox(height: 50,),
+        const SizedBox(height: 7,),
+        const PaymentMethodAddNew(),
+        const SizedBox(height: 50,),
+        const Divider(thickness: 5,),
+        const SizedBox(height: 50,),
          const PaymentMethodSubTitleImage(),
-        SizedBox(height: 7,),
-        PaymentMethodAddNew(),
-         SizedBox(height:50,),
+        const SizedBox(height: 7,),
+        const PaymentMethodAddNew(),
+         const SizedBox(height:50,),
          ElevatedButton(onPressed: () {
            
-         }, child: Text("Add"))
+         }, child: const Text("Add"))
       ],
     );
   }

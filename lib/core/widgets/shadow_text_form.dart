@@ -6,14 +6,15 @@ import 'package:online_school_admission/core/constant/const_color.dart';
 class ShadowTextForm extends StatelessWidget {
   const ShadowTextForm({
     super.key,
-    required this.text,
-    required this.text1,
-    this.maxLines = 1, this.prefixText,
+    this.text,
+    this.text1,
+    this.maxLines = 1, this.prefixText, this.suffixIcon,
   });
-  final String text;
-  final String text1;
+  final String ?text;
+  final String? text1;
   final int? maxLines;
   final String? prefixText;
+  final Widget? suffixIcon;
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -69,7 +70,7 @@ class ShadowTextForm extends StatelessWidget {
               expands: false,
               maxLines: maxLines,
               decoration:  InputDecoration(
-                  prefixText: prefixText,
+                  prefixText: prefixText,suffixIcon:suffixIcon ,
                   isDense: false,
                   contentPadding:const EdgeInsets.all(12.0),
                   border: InputBorder.none),
