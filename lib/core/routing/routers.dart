@@ -20,4 +20,6 @@ class Routers {
   static const String page17AdmissionPage = '/Page17AdmissionPageView';
   static const String page42AdmissionPage = '/Page42AdmissionPageView';
   static const String page43Admission = '/Page43Admissionview';
+  static const String frame1000003451BookABus = '/Frame1000003451BookABusView';
+  static const String page44AdmissionPage = '/Page44AdmissionPageView';
 }

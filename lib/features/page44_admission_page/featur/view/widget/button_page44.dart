@@ -7,24 +7,33 @@ import '../../../../../core/constant/const_textstyle.dart';
 import '../../../../../core/routing/routers.dart';
 import '../../../../../core/widgets/custom_elevated_button.dart';
 
-class ButtonPage43 extends StatelessWidget {
-  const ButtonPage43({super.key});
+class ButtonPage44 extends StatelessWidget {
+  const ButtonPage44({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16,vertical: 32),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.end,
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
         CustomElevatedButton(
-        text: "Next",
+        text: "Do you have an interest in school bus?",
         style: ConstTextStyle.k16Regular,
         backgroundColor: ConstColor.kCobaltBlue,
         minimumSize: Size(156.w, 50.h),
         onPressed: () =>
-           context.pushNamed(Routers.page44AdmissionPage),
-      )
+           context.pushNamed(Routers.frame1000003451BookABus),
+      ),
+      const SizedBox(height: 25,),
+        CustomElevatedButton(
+        text: "Submit",
+        style: ConstTextStyle.k16Regular,
+        backgroundColor: ConstColor.kCobaltBlue,
+        minimumSize: Size(156.w, 50.h),
+        onPressed: () =>
+           context.pushNamed(Routers.frame1000003451BookABus),
+      ),
       ],),
     );
   }
