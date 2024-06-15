@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import '../../../data/page26_model.dart';
@@ -8,11 +7,22 @@ class ChoiseItem extends StatelessWidget {
   final Page26Model page26model;
   @override
   Widget build(BuildContext context) {
-    return  GestureDetector(onTap: page26model.onTap,
-      child: Padding(padding: const EdgeInsets.all(15),
+    return GestureDetector(
+      onTap: page26model.onTap,
+      child: Padding(
+        padding: const EdgeInsets.all(15),
         child: Row(
-          children: [Container(height: 10,width: 10,color: Colors.grey,),const SizedBox(width: 10,),
-          Text(page26model.text)],
+          children: [
+            Container(
+              height: 10,
+              width: 10,
+              color: Colors.grey,
+            ),
+            const SizedBox(
+              width: 10,
+            ),
+            Text(page26model.text)
+          ],
         ),
       ),
     );
