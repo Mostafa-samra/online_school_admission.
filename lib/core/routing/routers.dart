@@ -19,4 +19,5 @@ class Routers {
   static const String homePage = '/HomePageView';
   static const String page17AdmissionPage = '/Page17AdmissionPageView';
   static const String page42AdmissionPage = '/Page42AdmissionPageView';
+  static const String page43Admission = '/Page43Admissionview';
 }

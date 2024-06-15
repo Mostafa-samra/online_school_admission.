@@ -7,8 +7,8 @@ import '../../../../../core/constant/const_textstyle.dart';
 import '../../../../../core/routing/routers.dart';
 import '../../../../../core/widgets/custom_elevated_button.dart';
 
-class ButtonPage42 extends StatelessWidget {
-  const ButtonPage42({super.key});
+class ButtonPage43 extends StatelessWidget {
+  const ButtonPage43({super.key});
 
   @override
   Widget build(BuildContext context) {
