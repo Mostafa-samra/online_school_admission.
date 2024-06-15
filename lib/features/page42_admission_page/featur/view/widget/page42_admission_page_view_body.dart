@@ -11,7 +11,7 @@ class Page42AdmissionPageViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(children: [
+    return ListView(children: const [
 
        CustomBackIconButton(),
         TitleTextAndDivider(),
