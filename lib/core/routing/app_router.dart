@@ -14,6 +14,7 @@ import '../../features/onbording/view/onbording_view.dart';
 import '../../features/authentication/user/sign_in_user/feature/view/sign_in_user_view.dart';
 import '../../features/page17_admission_page/featur/view/page17_admission_page_view.dart';
 import '../../features/page18_request/featur/view/page18_request_view.dart';
+import '../../features/page26_payment_method/featur/view/page26_payment_method_view.dart';
 import '../../features/page42_admission_page/featur/view/page42_admission_page_view.dart';
 import '../../features/page43_admission_page/featur/view/page43_admission_pageview.dart';
 import '../../features/page44_admission_page/featur/view/page44_admission_page_view.dart';
@@ -114,6 +115,10 @@ class AppRouter {
       case Routers.page18Request:
         return MaterialPageRoute(
           builder: (_) => const Page18RequestView(),
+        );
+      case Routers.page26PaymentMethod:
+        return MaterialPageRoute(
+          builder: (_) => const Page26PaymentMethodView(),
         );
 
       default:
