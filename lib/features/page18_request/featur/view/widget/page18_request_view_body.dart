@@ -19,9 +19,9 @@ class Page18RequestViewBody extends StatelessWidget {
         const SizedBox(
           height: 20,
         ),
-        ButtonPage18(),
-        Text("request id: #2634"),
-        Spacer(),
+        const ButtonPage18(),
+        const Text("request id: #2634"),
+        const Spacer(),
         Padding(
           padding: const EdgeInsets.all(8.0),
           child: Row(mainAxisAlignment: MainAxisAlignment.center,
@@ -29,7 +29,7 @@ class Page18RequestViewBody extends StatelessWidget {
             children: [
               TextButton(
                   onPressed: () {},
-                  child: Text(
+                  child: const Text(
                   textAlign: TextAlign.center,
                    
                     '"Wait until the acceptance \n confirmation email is sent, along with \n a code, to your email."',
