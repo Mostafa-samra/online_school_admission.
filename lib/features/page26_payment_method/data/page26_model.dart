@@ -1,6 +1,5 @@
 
 
-import '../../../core/routing/routers.dart';
 
 class Page26Model {
   final String text;
