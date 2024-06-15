@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:online_school_admission/core/routing/extensions.dart';
 
 import '../../../../core/routing/routers.dart';
-import 'fourth_page.dart';
-import 'intro_page_one.dart';
-import 'second_page.dart';
-import 'third_page.dart';
+import 'page4_fourth_page.dart';
+import 'page1_intro_page_one.dart';
+import 'page2_second_page.dart';
+import 'page3_third_page.dart';
 
 class OnbordingViewBody extends StatefulWidget {
   const OnbordingViewBody({super.key});

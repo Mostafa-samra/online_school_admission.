@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:online_school_admission/features/authentication/schools/sign_in_school/featur/view/sign_in_school_view.dart';
 import 'package:online_school_admission/features/authentication/user/rest_password_form_user/feature/view/reset_password_form_user_view.dart';
-import 'package:online_school_admission/features/intro/featur/view/home_view.dart';
+import 'package:online_school_admission/features/page5_intro/featur/view/home_view.dart';
 import '../../features/Frame1000003451_book_a_bus/featur/view/Frame1000003451_book_a_bus_view.dart';
 import '../../features/authentication/schools/confirm_password_schools/featur/view/confirm_password_schools.dart';
 import '../../features/authentication/schools/sign_up_schools/featur/view/sign_up_schools_view.dart';
@@ -18,6 +18,7 @@ import '../../features/page26_payment_method/featur/view/page26_payment_method_v
 import '../../features/page42_admission_page/featur/view/page42_admission_page_view.dart';
 import '../../features/page43_admission_page/featur/view/page43_admission_pageview.dart';
 import '../../features/page44_admission_page/featur/view/page44_admission_page_view.dart';
+import '../../features/page45_payment_method/featur/view/page45_payment_method_view.dart';
 import '../../features/profile_school/application_submit_page_one/featur/view/application_submit_page_one_view.dart';
 import '../../features/profile_school/application_submit_page_tow/featur/view/application_submit_page_tow_view.dart';
 import '../../features/profile_school/payment_method/featur/view/payment_method_view.dart';
@@ -119,6 +120,10 @@ class AppRouter {
       case Routers.page26PaymentMethod:
         return MaterialPageRoute(
           builder: (_) => const Page26PaymentMethodView(),
+        );
+      case Routers.page45PaymentMethod:
+        return MaterialPageRoute(
+          builder: (_) => const Page45PaymentMethodView(),
         );
 
       default:
