@@ -13,6 +13,7 @@ import '../../features/home/featur/view/home_page_view.dart';
 import '../../features/onbording/view/onbording_view.dart';
 import '../../features/authentication/user/sign_in_user/feature/view/sign_in_user_view.dart';
 import '../../features/page17_admission_page/featur/view/page17_admission_page_view.dart';
+import '../../features/page18_request/featur/view/page18_request_view.dart';
 import '../../features/page42_admission_page/featur/view/page42_admission_page_view.dart';
 import '../../features/page43_admission_page/featur/view/page43_admission_pageview.dart';
 import '../../features/page44_admission_page/featur/view/page44_admission_page_view.dart';
@@ -109,6 +110,10 @@ class AppRouter {
       case Routers.page44AdmissionPage:
         return MaterialPageRoute(
           builder: (_) => const Page43AdmissionPageView(),
+        );
+      case Routers.page18Request:
+        return MaterialPageRoute(
+          builder: (_) => const Page18RequestView(),
         );
 
       default:
