@@ -19,7 +19,7 @@ class OnlineSchoolAdmission extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           initialRoute: 
           
-        Routers.page45PaymentMethod,
+        Routers.page46PaymentMethod,
         // Routers.onbording,
 
          
