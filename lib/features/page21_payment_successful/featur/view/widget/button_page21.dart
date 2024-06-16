@@ -20,7 +20,7 @@ class ButtonPage21 extends StatelessWidget {
       backgroundColor: ConstColor.kCobaltBlue,
       minimumSize: Size(156.w, 50.h),
       onPressed: () =>
-         context.pushNamed(Routers.page42AdmissionPage),
+         context.pushNamed(Routers.page22BookingInterview),
             ),
     );
   }
