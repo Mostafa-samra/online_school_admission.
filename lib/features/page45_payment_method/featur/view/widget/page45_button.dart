@@ -18,7 +18,7 @@ class Page45Button extends StatelessWidget {
         backgroundColor: ConstColor.kCobaltBlue,
         minimumSize: Size(156.w, 50.h),
         onPressed: () =>
-           context.pushNamed(Routers.frame1000003451BookABus),
+           context.pushNamed(Routers.page21PaymentSuccessful),
       );
   }
 }

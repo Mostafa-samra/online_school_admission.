@@ -7,8 +7,8 @@ class Page46TotalAmount extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 50),
-      child: Column(
+      padding: const EdgeInsets.symmetric(horizontal: 80),
+      child: Column(crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text("Total Amount"),
           const SizedBox(height: 13,),

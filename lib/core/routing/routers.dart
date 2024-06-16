@@ -26,4 +26,5 @@ class Routers {
   static const String page26PaymentMethod = '/Page26PaymentMethodView';
   static const String page45PaymentMethod = '/Page45PaymentMethodView';
   static const String page46PaymentMethod = '/Page46PaymentMethodView';
+  static const String page21PaymentSuccessful = '/Page21PaymentSuccessfulView';
 }

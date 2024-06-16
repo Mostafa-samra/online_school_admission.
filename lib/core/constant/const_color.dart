@@ -18,5 +18,6 @@ static  Color kDoveGray =const  Color(0xFFAAAACC);
 static  Color kLightGray =const  Color(0xFFD9D9D9);
 static  Color kVeryLightGray =const  Color(0xFFCACCD0);
 static  Color kWhisper1 =const Color.fromARGB(255, 129, 129, 129);
+static  Color kSlightBlueHue =const Color(0xffC4C4C4 );
 
 }
