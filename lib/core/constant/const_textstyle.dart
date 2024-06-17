@@ -59,4 +59,8 @@ abstract class ConstTextStyle {
       const TextStyle(fontSize: 22, fontWeight: FontWeight.w400);
   static TextStyle k20RegularkSlightBlueHue =
        TextStyle(fontSize: 22, fontWeight: FontWeight.w400,color: ConstColor.kSlightBlueHue);
+  static TextStyle k15RegularkDarkRed =
+       TextStyle(fontSize: 15, fontWeight: FontWeight.w400,color: ConstColor.kDarkRed);
+  static TextStyle k15Regular =
+     const  TextStyle(fontSize: 15, fontWeight: FontWeight.w400,);
 }
