@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import '../../../../../core/widgets/drop_down_menu_widget.dart';
 import '../../../../../core/widgets/dropdown_widget.dart';
 
 class Page24Dropdown extends StatefulWidget {
