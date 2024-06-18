@@ -15,9 +15,9 @@ class Page23ChoiseItem extends StatelessWidget {
         child: Row(
           children: [
             Image.asset(page23ProfileModel.image,width: 40,),
-            SizedBox(width: 20,),
+            const SizedBox(width: 20,),
             Text(page23ProfileModel.text,style: ConstTextStyle.k24Regular,),
-            Spacer(),
+            const Spacer(),
             Icon(
               Icons.arrow_forward_ios,
               color: ConstColor.kCobaltBlue,

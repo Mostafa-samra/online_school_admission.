@@ -28,8 +28,7 @@ class Page23ProfileScreen extends StatelessWidget {
           "Ahmed Mohamed",
           style: ConstTextStyle.k24Regular,
         ),
-       const Page23ChoiseList()
-        
+        const Page23ChoiseList()
       ],
     );
   }
