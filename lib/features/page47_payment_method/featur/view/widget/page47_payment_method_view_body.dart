@@ -28,8 +28,8 @@ class Page47PaymentMethodViewBody extends StatelessWidget {
             
             children: [
             Image.asset("assets/images/image 93.png"),
-            Text("Personal  536*"),
-            TextButton(onPressed:(){} , child: Text("Remove"))
+            const Text("Personal  536*"),
+            TextButton(onPressed:(){} , child: const Text("Remove"))
           ],),
         ),
 
@@ -37,8 +37,8 @@ class Page47PaymentMethodViewBody extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 30),
           child: Row(children: [
-            Icon(Icons.add),
-            TextButton(onPressed:(){} , child: Text("Add new payment method"),),
+            const Icon(Icons.add),
+            TextButton(onPressed:(){} , child: const Text("Add new payment method"),),
           ],),
         )
     ],);
