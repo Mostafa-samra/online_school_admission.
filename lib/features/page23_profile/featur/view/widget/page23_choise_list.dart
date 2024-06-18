@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:online_school_admission/core/routing/extensions.dart';
+import 'package:online_school_admission/core/routing/routers.dart';
 import 'package:online_school_admission/features/page23_profile/data/page23_profile_model.dart';
 
 import 'page23_choise_item.dart';
@@ -12,7 +14,7 @@ class Page23ChoiseList extends StatelessWidget {
       Page23ProfileModel(
         image: "assets/images/image 106.png",
         text: "Your Profile",
-        onTap: () {},
+        onTap: () =>context.pushNamed(Routers.page24YourProfile),
       ),
       Page23ProfileModel(
         image: "assets/images/image 103.png",
