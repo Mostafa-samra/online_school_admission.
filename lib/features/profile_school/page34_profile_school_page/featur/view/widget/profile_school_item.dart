@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:online_school_admission/features/profile_school/profile_school_page/data/profile_school_model.dart';
+import 'package:online_school_admission/features/profile_school/page34_profile_school_page/data/profile_school_model.dart';
 
 class ProfileSchoolItem extends StatelessWidget {
   const ProfileSchoolItem({super.key, required this.profileSchoolModel});

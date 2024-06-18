@@ -9,7 +9,7 @@ import '../../features/authentication/user/complete_your_profile_user/featur/vie
 import '../../features/authentication/user/reset_password_user/feature/view/reset_password_view.dart';
 import '../../features/authentication/user/sign_up_user/featur/view/sign_up_user_view.dart';
 import '../../features/authentication/user/verify_code_user/featur/view/verify_code_user_view.dart';
-import '../../features/home/featur/view/home_page_view.dart';
+import '../../features/page10_home/featur/view/home_page_view.dart';
 import '../../features/onbording/view/onbording_view.dart';
 import '../../features/authentication/user/sign_in_user/feature/view/sign_in_user_view.dart';
 import '../../features/page17_admission_page/featur/view/page17_admission_page_view.dart';
@@ -25,7 +25,7 @@ import '../../features/page46_payment_method/featur/view/page46_payment_method_v
 import '../../features/profile_school/application_submit_page_one/featur/view/application_submit_page_one_view.dart';
 import '../../features/profile_school/application_submit_page_tow/featur/view/application_submit_page_tow_view.dart';
 import '../../features/profile_school/payment_method/featur/view/payment_method_view.dart';
-import '../../features/profile_school/profile_school_page/featur/view/profile_school_view.dart';
+import '../../features/profile_school/page34_profile_school_page/featur/view/profile_school_view.dart';
 import 'routers.dart';
 
 class AppRouter {
@@ -78,7 +78,7 @@ class AppRouter {
         );
       case Routers.profileSchool:
         return MaterialPageRoute(
-          builder: (_) => const ProfileSchoolView(),
+          builder: (_) => const Page34ProfileSchoolView(),
         );
       case Routers.applicationSubmitPageOne:
         return MaterialPageRoute(

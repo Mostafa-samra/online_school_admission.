@@ -17,7 +17,10 @@ class AvatarCameraUser extends StatelessWidget {
           child: Image.asset("assets/images/Union.png"),
         ),
         const Positioned(
-            left: 310, top: 100, child: Icon(Icons.camera_enhance_outlined)),
+          left: 310,
+          top: 100,
+          child: Icon(Icons.camera_enhance_outlined),
+        ),
       ],
     );
   }

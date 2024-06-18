@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:online_school_admission/core/routing/extensions.dart';
 import 'package:online_school_admission/core/routing/routers.dart';
-import 'package:online_school_admission/features/profile_school/profile_school_page/featur/view/widget/profile_school_item.dart';
+import 'package:online_school_admission/features/profile_school/page34_profile_school_page/featur/view/widget/profile_school_item.dart';
 import '../../../data/profile_school_model.dart';
 
 class ProfileSchoolList extends StatelessWidget {

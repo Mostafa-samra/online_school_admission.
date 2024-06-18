@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:online_school_admission/features/home/data/home_page_model.dart';
+import 'package:online_school_admission/features/page10_home/data/home_page_model.dart';
 
 class HomePageItemDitales extends StatelessWidget {
   const HomePageItemDitales({

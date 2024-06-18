@@ -3,5 +3,9 @@ class ProfileSchoolModel {
   final String title;
   final void Function() onTap;
 
-  ProfileSchoolModel( {required this.image, required this.title,required this.onTap,});
+  ProfileSchoolModel({
+    required this.image,
+    required this.title,
+    required this.onTap,
+  });
 }

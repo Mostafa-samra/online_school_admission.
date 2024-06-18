@@ -8,6 +8,14 @@ class HomePageItemDitalesList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(children: homePageModelDetales.map((e) => HomePageItemDitales(homePageModel: e),).toList(),);
+    return Column(
+      children: homePageModelDetales
+          .map(
+            (e) => HomePageItemDitales(
+              homePageModel: e,
+            ),
+          )
+          .toList(),
+    );
   }
 }

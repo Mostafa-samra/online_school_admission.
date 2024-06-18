@@ -19,7 +19,7 @@ class OnlineSchoolAdmission extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           initialRoute: 
           
-        Routers.page22BookingInterview,
+        Routers.homePage,
         // Routers.onbording,
 
          
