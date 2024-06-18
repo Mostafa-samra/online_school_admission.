@@ -23,6 +23,7 @@ import '../../features/page43_admission_page/featur/view/page43_admission_pagevi
 import '../../features/page44_admission_page/featur/view/page44_admission_page_view.dart';
 import '../../features/page45_payment_method/featur/view/page45_payment_method_view.dart';
 import '../../features/page46_payment_method/featur/view/page46_payment_method_view.dart';
+import '../../features/page47_payment_method/featur/view/page47_payment_method_view.dart';
 import '../../features/profile_school/application_submit_page_one/featur/view/application_submit_page_one_view.dart';
 import '../../features/profile_school/application_submit_page_tow/featur/view/application_submit_page_tow_view.dart';
 import '../../features/profile_school/payment_method/featur/view/payment_method_view.dart';
@@ -144,6 +145,10 @@ class AppRouter {
       case Routers.page24YourProfile:
         return MaterialPageRoute(
           builder: (_) => const Page24YourProfileView(),
+        );
+      case Routers.page47PaymentMethod:
+        return MaterialPageRoute(
+          builder: (_) => const Page47PaymentMethodView(),
         );
 
       default:

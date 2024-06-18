@@ -19,7 +19,7 @@ class Page23ChoiseList extends StatelessWidget {
       Page23ProfileModel(
         image: "assets/images/image 103.png",
         text: "Payment Method",
-        onTap: () {},
+        onTap: () =>context.pushNamed(Routers.page47PaymentMethod),
       ),
       Page23ProfileModel(
         image: "assets/images/image 102.png",
