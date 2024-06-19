@@ -4,6 +4,7 @@ import 'package:online_school_admission/core/routing/routers.dart';
 import 'package:online_school_admission/features/page23_profile/data/page23_profile_model.dart';
 
 import 'page23_choise_item.dart';
+import 'page23button_show_dialog.dart';
 
 class Page23ChoiseList extends StatelessWidget {
   const Page23ChoiseList({super.key});
@@ -14,12 +15,12 @@ class Page23ChoiseList extends StatelessWidget {
       Page23ProfileModel(
         image: "assets/images/image 106.png",
         text: "Your Profile",
-        onTap: () =>context.pushNamed(Routers.page24YourProfile),
+        onTap: () => context.pushNamed(Routers.page24YourProfile),
       ),
       Page23ProfileModel(
         image: "assets/images/image 103.png",
         text: "Payment Method",
-        onTap: () =>context.pushNamed(Routers.page47PaymentMethod),
+        onTap: () => context.pushNamed(Routers.page47PaymentMethod),
       ),
       Page23ProfileModel(
         image: "assets/images/image 102.png",
@@ -29,12 +30,20 @@ class Page23ChoiseList extends StatelessWidget {
       Page23ProfileModel(
         image: "assets/images/image 104.png",
         text: "delete account",
-        onTap: () {},
+        onTap: () => customShowDialog(
+          context,
+          'Logout',
+          'Are you sure you want to logout?',
+        ),
       ),
       Page23ProfileModel(
         image: "assets/images/image 105.png",
         text: "Log Out",
-        onTap: () {},
+        onTap: () => customShowDialog(
+          context,
+          'Delete Account',
+          'Are you sure your deltee account ?',
+        ),
       ),
     ];
     return Column(
@@ -46,5 +55,18 @@ class Page23ChoiseList extends StatelessWidget {
           )
           .toList(),
     );
+  }
+
+  Future<dynamic> customShowDialog(
+      BuildContext context, String title, String content) {
+    return showDialog(
+        context: context,
+        builder: (context) => AlertDialog(
+              title: Text(title),
+              content: Text(content),
+              actions: const <Widget>[
+                Page23buttonShowDialog(),
+              ],
+            ));
   }
 }

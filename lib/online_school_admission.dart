@@ -17,14 +17,7 @@ class OnlineSchoolAdmission extends StatelessWidget {
         return MaterialApp(
           title: "Online School Admission",
           debugShowCheckedModeBanner: false,
-          initialRoute: 
-          
-        Routers.page47PaymentMethod,
-        // Routers.onbording,
-
-         
-          //TODO: Change direction
-
+          initialRoute: Routers.onbording,
           onGenerateRoute: appRouter.generateRoute,
         );
       },
